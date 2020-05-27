@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(background.jpg);
+    background-attachment: fixed;
+}
+
+#nav-Bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img {
+    height: 10px;
+    padding: 30px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-Bar ul li a:hover{
+    color: #007bff;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none;
+}
+.nav-link{
+    color: #555;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#signup{
+    padding-top: 20px;
+    color: deepskyblue;
+    text-align: center;
+
+}
+.card{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 18rem;
+    float: left;
+}
+
+.card-title{
+    padding-left: 60px;
+}
+#d{
+    font-size: 20px;
+}
+
+#link{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.form-row{
+    color: white;
+    padding-left: 80px;
+    width: 1000px;
+}
+form{
+    margin-top: 40px;
+}
+#but{
+    margin-left: 420px;
+}
