@@ -13,4 +13,16 @@ function validate() {
          }
     return( true );
     
+
+    
+    
+    
+    if( document.myForm.lname.value == "" ) {
+            alert( "Please provide your last name!" );
+
+            return false;
+         }
+    return( true );
+    
+
 }
